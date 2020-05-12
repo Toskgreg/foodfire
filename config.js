@@ -6,17 +6,17 @@ module.exports = {
   authDomain: 'aregbio.firebaseapp.com',
   ANALYTICS_TRACKING_ID: '232304422',
   clearCart: true, // Whether to clear the cart after order is placed. Useful while testing
-  currency: { symbol: '₹', code: 'INR' },
+  currency: { symbol: 'Shs', code: 'UG' },
   manifest: {
     name: 'AregBio',
-    short_name: 'AregBio',
+    short_name: 'aregbio',
     start_url: '/',
     display: 'standalone',
     background_color: '#fff',
     theme_color: '#555'
   },  
   head: {
-    titleTemplate: 'Foodfire | %s',
+    titleTemplate: 'AregBio | %s',
     title: pkg.description,
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
