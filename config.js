@@ -1,20 +1,20 @@
 const pkg = require('./package')
 
 module.exports = {
-  apiKey: 'AIzaSyDBM8REAXrMtwLbO0Dv1iL6hEaU-jzVdFk',
-  projectId: 'vueshop-30fea',
-  authDomain: 'vueshop-30fea.firebaseapp.com',
-  ANALYTICS_TRACKING_ID: 'UA-49421899-3',
+  apiKey: 'AIzaSyDGmNI9-ELuBi83vDWSojTwu19rqQrGyjQ',
+  projectId: 'aregbio',
+  authDomain: 'aregbio.firebaseapp.com',
+  ANALYTICS_TRACKING_ID: '232304422',
   clearCart: true, // Whether to clear the cart after order is placed. Useful while testing
   currency: { symbol: '₹', code: 'INR' },
   manifest: {
-    name: 'Foodfire',
-    short_name: 'Foodfire',
+    name: 'AregBio',
+    short_name: 'AregBio',
     start_url: '/',
     display: 'standalone',
     background_color: '#fff',
     theme_color: '#555'
-  },
+  },  
   head: {
     titleTemplate: 'Foodfire | %s',
     title: pkg.description,
